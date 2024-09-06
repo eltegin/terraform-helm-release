@@ -1,5 +1,6 @@
 module mypythonapp {
   source    = "eltegin/release/helm"
+  version = 0.0.3
   name      = "python"
   namespace = "wordpress"
     values = [<<EOF

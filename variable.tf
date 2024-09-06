@@ -15,8 +15,3 @@ variable values {
     default = []
     description = "values of my chart"
 }
-
-variable namespace {
-  type = string
-  description = "this is for single app namespace"
-}
